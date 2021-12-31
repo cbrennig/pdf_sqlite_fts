@@ -1,4 +1,4 @@
-# Sqlite full text search in multiple pdfs
+Sqlite full text search in multiple pdfs
 
 Make a full-text search in multiple PDF, using a Sqlite database on a linux system. In principle, the code can also be used for windows or mac. In these cases, the necessary software packages correspond to the respective operating systems.
 
@@ -8,7 +8,9 @@ The next part of the application is a search. For that purpose, the database is 
 
 ## How it works
 
-![sqlite fts](sqlite fts.png)
+
+
+![](sqlite_fts.jpg)
 
 
 
@@ -176,7 +178,7 @@ searching results for photovoltaic* AND "lithium ion battery"
 
 |      |                                            found in document |                                               found on pages |
 | ---: | -----------------------------------------------------------: | -----------------------------------------------------------: |
-|    0 | [/IEC_61427-2___BS_EN_61427-2ED1.0_2012-11___ENGLISCH.pdf](pdf_files/IEC_61427-2___BS_EN_61427-2ED1.0_2012-11___ENGLISCH.pdf) | [doc](pdf_files/IEC_61427-2___BS_EN_61427-2ED1.0_2012-11___ENGLISCH.pdf) |
-|    1 | [/Transport of dangerous goods 2022_Vol2_WEB_0.pdf](pdf_files/Transport of dangerous goods 2022_Vol2_WEB_0.pdf) | [108](pdf_files/Transport of dangerous goods 2022_Vol2_WEB_0.pdf#page=108) [124](pdf_files/Transport of dangerous goods 2022_Vol2_WEB_0.pdf#page=124) [123](pdf_files/Transport of dangerous goods 2022_Vol2_WEB_0.pdf#page=123) [280](pdf_files/Transport of dangerous goods 2022_Vol2_WEB_0.pdf#page=280) |
-|    2 |      [/VDE_0520-933-5-2.pdf](pdf_files/VDE_0520-933-5-2.pdf) |                        [doc](pdf_files/VDE_0520-933-5-2.pdf) |
-|    3 | [/IEC_61427-2___CD_IEC_61427_2_Secondary_Batteries_PV_ongrid_application 373_2012-0186_6_CD_2012_11_DEUTSCH.pdf](pdf_files/IEC_61427-2___CD_IEC_61427_2_Secondary_Batteries_PV_ongrid_application 373_2012-0186_6_CD_2012_11_DEUTSCH.pdf) | [doc](pdf_files/IEC_61427-2___CD_IEC_61427_2_Secondary_Batteries_PV_ongrid_application 373_2012-0186_6_CD_2012_11_DEUTSCH.pdf) |
+|    0 | [IEC_61427-2_BS_EN_61427-2ED1.0_2012-11_ENGLISCH.pdf] | [doc]|
+|    1 | [/Transport of dangerous goods 2022_Vol2_WEB_0.pdf] | [108] [124] [123] [280] |
+|    2 |      [/VDE_0520-933-5-2.pdf] |                        [doc] |
+|    3 | [/IEC_61427-2_CD_IEC_61427_2_Secondary_Batteries_PV_ongrid_application 373_2012-0186_6_CD_2012_11_DEUTSCH.pdf] | [doc] |
